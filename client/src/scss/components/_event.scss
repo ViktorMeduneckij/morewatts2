@@ -1,0 +1,50 @@
+.EventList {
+  display: flex;
+  flex-direction: column;
+}
+
+.Event {
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 5px;
+
+  &.road {
+    background-color: rgba(252, 177, 3, 0.7);
+  }
+
+  &.mtb {
+    background-color: rgba(8, 138, 51, 0.7);
+  }
+}
+
+.Event__title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Event__left {
+  margin-right: 10px;
+}
+
+.Event__type--icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  height: 30px;
+  width: 30px;
+
+  &.road {
+    background-image: url('../assets/icons/road.svg')
+  }
+
+  &.mtb {
+    background-image: url('../assets/icons/mtb.png')
+  }
+
+  p {
+    text-transform: uppercase;
+  }
+}

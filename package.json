@@ -1,31 +1,29 @@
 {
-  "name": "morewatts_2",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
-  },
+  "name": "node_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "engines": {
+    "node": "10.3.0"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "air-datepicker": "^2.2.3",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "heroku-ssl-redirect": "0.0.4",
+    "js-datepicker": "^4.0.10",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.9",
+    "mongoose-error-helper": "syntagma/mongoose-error-helper#master",
+    "node-sass": "^4.11.0",
+    "timepicker": "^1.11.14"
   }
 }
