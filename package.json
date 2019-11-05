@@ -21,7 +21,7 @@
     "heroku-ssl-redirect": "0.0.4",
     "js-datepicker": "^4.0.10",
     "mongodb": "^3.1.13",
-    "mongoose": "^5.4.9",
+    "mongoose": "^5.7.5",
     "mongoose-error-helper": "syntagma/mongoose-error-helper#master",
     "node-sass": "^4.11.0",
     "timepicker": "^1.11.14"
