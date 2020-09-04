@@ -23,7 +23,7 @@
     "mongodb": "^3.1.13",
     "mongoose": "^5.4.9",
     "mongoose-error-helper": "syntagma/mongoose-error-helper#master",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "timepicker": "^1.11.14"
   }
 }
